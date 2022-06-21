@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Open+Sans&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Open+Sans&family=Roboto+Slab:wght@500&display=swap");
+body {
+  font-family: "Mulish", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+.register {
+  border-radius: 5px;
+  width: 550px;
+  margin: 50px auto;
+  padding: 20px;
+  margin-left: 540px;
+}
+.register-body {
+  text-align: left;
+  background-color: rgb(70, 81, 94);
+  margin-top: 5px;
+  margin-right: 60px;
+  height: 450px;
+  width: 650px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+}
+.register__input {
+  background-color: rgb(70, 81, 94);
+  color: white;
+  text-shadow: 1px 1px rgb(180, 86, 24);
+
+}
+.register-body > * {
+  padding: 1px;
+}
+.inner-input {
+  margin-top: -38px;
+  
+}
+
+.register__label {
+  width: 40%;
+  margin-top: 20px;
+  text-shadow: 1px 1px rgb(102, 54, 23);
+}
+.title {
+  text-align: center;
+  color: white;
+  margin: auto;
+  padding: 20px;
+  background-color: #2c3e50;
+}
+.register-button {
+  background-color: rgb(25, 46, 63);
+  border: none;
+  color: white;
+  border-radius: 12px;
+  height: 50px;
+  display: inline-block;
+  font-size: 20px;
+  width: 150px;
+  align-items: center;
+  margin: 20px;
+  text-shadow: 1px 1px rgb(102, 54, 23);
+
+}
+.sidebar-register {
+  background-color: rgb(25, 46, 63);
+  border-radius: 5px;
+  width: 400px;
+  height: 450px;
+  margin-left: 180px;
+  margin-top: -520px;
+}
+.inner-register {
+  padding: 50px 55px;
+}
+.border-square {
+  border-radius: 15px;
+  border: 5px solid #ecf1e3;
+  width: 350px;
+  height: 350px;
+  margin-left: -30px;
+}
+.register-title {
+  text-align: center;
+  color: white;
+  margin: 40px;
+  margin-left: 10px;
+  padding: 5px;
+  width: 637px;
+  font-size: 34px;
+  border-radius: 6px;
+  background-color: #2c3e50;
+  font-family: "Passion One", cursive;
+}
+
+@media screen and (max-width: 1024px) {
+  
+  
+}
+/*------------media queries (small devices)----------------------*/
+@media screen and (max-width: 600px) {
+  
+}

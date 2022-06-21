@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Open+Sans&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Open+Sans&family=Roboto+Slab:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+body {
+  font-family: "Mulish", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+.content {
+  text-align: center;
+}
+.link-class{
+    color: rgb(0, 8, 14);
+    font-family: 'Passion One', cursive;
+
+}
+.login-heading{
+    text-align: center;
+    margin: 10px;
+}
+
+.login {
+  background-color: rgb(70, 81, 94);
+  border-radius: 5px;
+  width: 550px;
+  margin: 90px auto;
+  color: white;
+  /* padding: 40px; */
+  height: 350px;
+  margin-right: 220px;
+
+  /* height: 600px; */
+}
+.login-input {
+  background-color: rgb(70, 81, 94);
+  color: white;
+}
+
+.login-body {
+  text-align: center;
+  padding: 80px 10px;
+}
+
+.login-body > * {
+  padding: 5px;
+}
+
+.login-label {
+  width: 40%;
+}
+.login-title {
+  text-align: center;
+  color: white;
+  margin: -60px;
+  padding: 5px;
+  width: 595px;
+  font-size: 34px;
+  border-radius: 6px;
+  background-color: #2c3e50;
+  font-family: 'Passion One', cursive;
+}
+.login-button {
+  background-color: rgb(25, 46, 63);
+  border: none;
+  color: white;
+  border-radius: 12px;
+  height: 50px;
+  display: inline-block;
+  font-size: 20px;
+  width: 150px;
+  /* margin: 4px 2px; */
+  align-items: center;
+  margin: 10px;
+}
+.sidebar {
+  background-color: rgb(25, 46, 63);
+  border-radius: 5px;
+  width: 300px;
+  height: 350px;
+  /* margin: 5px auto; */
+  /* padding: 37px; */
+  /* padding: 10px; */
+  margin-left: 230px;
+  margin-top: -440px;
+}
+.content {
+    text-indent: 20px;
+    text-align: center;
+    margin: -80px;
+  }
+/* row col-12 d-flex justify-content-center text-white  */
+
+
+@media screen and (max-width: 1024px) {
+  
+}
+/*------------media queries (small devices)----------------------*/
+@media screen and (max-width: 1080px) {
+  
+  .sidebar {
+    border-radius: 2px;
+    width: 20px;
+    height: 20px;
+    /* margin: 5px auto; */
+    /* padding: 37px; */
+    /* padding: 10px; */
+    /* margin-left: 30px;*/
+    margin-top: 0px; 
+  }
+  
+}

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Open+Sans&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&family=Open+Sans&family=Roboto+Slab:wght@500&display=swap");
+
+/* form {
+  background-color: brown;
+} */
+.form {
+  /* text-align: right; */
+  padding: 110px;
+  margin: auto;
+  color: rgb(25, 46, 63);
+  height: 550px;
+  margin-top: 60px;
+  width: 900px;
+  background: white;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+}
+.contact {
+  background: rgb(25, 46, 63);
+  color: azure;
+  width: 500px;
+  height: 470px;
+  margin-top: -410px;
+  margin-left: -200px;
+  text-align: center;
+  padding: 50px;
+  font-size: medium;
+}
+.contact-h3 {
+  text-decoration: underline solid rgb(25, 46, 63) 3px;
+}
+.main {
+  background-color: powderblue;
+  background-position: 0% 100%;
+}
+.contact-inner {
+  margin-left: 60%;
+}
+h2 {
+  text-indent: 250px;
+}
+
+input,
+textarea {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: rgb(25, 46, 63);
+  background-color: white;
+}
+.contact-icon {
+  font-size: 20px;
+}
+.social-container {
+}
+input:focus {
+  border-color: rgb(104, 113, 121);
+}
+
+.button {
+  background-color: rgb(25, 46, 63);
+  border: none;
+  color: white;
+  border-radius: 12px;
+  height: 50px;
+  display: inline-block;
+  font-size: 20px;
+  width: 150px;
+  margin: 4px 2px;
+  margin-left: 48px;
+}
